@@ -2819,7 +2819,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-left: 23em;
+		padding-left: 20em;
 	}
 
 /* Main */
@@ -2883,7 +2883,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 20em;
 			}
 
 				#header > header {
@@ -2897,7 +2897,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				padding-right: 0em;
 			}
 
 		/* Main */
@@ -2927,7 +2927,8 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				padding-right: 0em;
+				padding-left: 20em;
 			}
 
 	}
@@ -2985,8 +2986,8 @@ input, select, textarea {
 				-moz-transform: translateX(23em);
 				-webkit-transform: translateX(23em);
 				-ms-transform: translateX(23em);
-				transform: translateX(23em);
-				right: 0;
+				transform: translateX(-23em);
+				left: 0;
 			}
 
 				#header > footer {
@@ -3094,7 +3095,7 @@ input, select, textarea {
 				-moz-transform: translateX(-23em);
 				-webkit-transform: translateX(-23em);
 				-ms-transform: translateX(-23em);
-				transform: translateX(-23em);
+				transform: translateX(0em);
 			}
 
 			body.header-visible #header {
@@ -3181,7 +3182,7 @@ input, select, textarea {
 				-moz-transform: translateX(17em);
 				-webkit-transform: translateX(17em);
 				-ms-transform: translateX(17em);
-				transform: translateX(17em);
+				transform: translateX(-17em);
 				right: 0;
 			}
 
@@ -3246,14 +3247,14 @@ input, select, textarea {
 				-moz-transform: translateX(-17em);
 				-webkit-transform: translateX(-17em);
 				-ms-transform: translateX(-17em);
-				transform: translateX(-17em);
+				transform: translateX(0em);
 			}
 
 	}
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+	@media screen{
 
 		/* Basic */
 
@@ -3305,12 +3306,24 @@ input, select, textarea {
 			}
 
 		/* Button */
-
+ 
 			input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
 			.button {
 				padding: 0;
 			}
-
-	}
+			button.btn-primary {
+				max-width: 1000px;
+				background-color: #80a4ed;
+				width: 100%;
+				margin-top: 90px;
+				height: 70px;
+				font-size:xx-large;
+				color: white;
+			}
+			button.btn-primary:hover{background-color: #1c3d5e; transition: 1s;}
+			.login_wrap {
+				justify-content: center;
+			}
+		}
