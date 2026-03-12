@@ -3254,7 +3254,7 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+	@media screen{
 
 		/* Basic */
 
@@ -3306,12 +3306,24 @@ input, select, textarea {
 			}
 
 		/* Button */
-
+ 
 			input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
 			.button {
 				padding: 0;
 			}
-
-	}
+			button.btn-primary {
+				max-width: 1000px;
+				background-color: #80a4ed;
+				width: 100%;
+				margin-top: 90px;
+				height: 70px;
+				font-size:xx-large;
+				color: white;
+			}
+			button.btn-primary:hover{background-color: #1c3d5e; transition: 1s;}
+			.login_wrap {
+				justify-content: center;
+			}
+		}
