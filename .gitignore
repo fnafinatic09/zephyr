@@ -1,1 +1,4 @@
-#ajfiwdsjfiojifjwofgew
+*.css
+*.html
+!mailingui.html
+!index
