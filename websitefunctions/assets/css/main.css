@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #01094b !important;
+			color: #4acaa8 !important;
 		}
 
 	strong, b {
@@ -2720,7 +2720,7 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #0a1713;
 		}
 
 		#header a {
@@ -2751,7 +2751,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #305047;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #81B3DB;
 					display: block;
 					padding: 0;
 				}
@@ -2800,7 +2800,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #4F789D !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2808,7 +2808,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #1c3d5e !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3254,7 +3254,7 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen{
+	@media screen and (max-width: 480px) {
 
 		/* Basic */
 
@@ -3306,24 +3306,12 @@ input, select, textarea {
 			}
 
 		/* Button */
- 
+
 			input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
 			.button {
 				padding: 0;
 			}
-			button.btn-primary {
-				max-width: 1000px;
-				background-color: #80a4ed;
-				width: 100%;
-				margin-top: 90px;
-				height: 70px;
-				font-size:xx-large;
-				color: white;
-			}
-			button.btn-primary:hover{background-color: #1c3d5e; transition: 1s;}
-			.login_wrap {
-				justify-content: center;
-			}
-		}
+
+	}

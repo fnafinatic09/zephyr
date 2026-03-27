@@ -1,9 +1,9 @@
 <html>
 <head>
     <title> 
-        Register
+        Login
     </title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
     <style>
 .loginpage {
   padding: auto;
@@ -16,24 +16,20 @@
 
     <div class="login_form_wrap">
 
-<form action="connect.php" method="post">
-<h4> Create an Account </h4>
+<form action="../backend/connect.php" method="post"> 
+<h4> Log In to Your Account </h4>
     <div class="form-group">
         <Label>Username</Label>
         <input type="text" class="form-control" id="username" name="username">
-    </div>
-        <div class="form-group">
-        <Label>Email</Label>
-        <input type="email" class="form-control" id="email" name="email">
     </div>
     <div class="form-group">
         <Label>Password</Label>
         <input type="password" class="form-control" id="password" name="password">
     </div>
-    <button class="btn btn-primary"> Create Your Account </button>
+    <button class="btn btn-primary"> Log In </button>
 </form>
     </div>
-    <p> Already have an account? <a href="login.html"> Login here </a> </p>
+    <p> Don't have an account? <a href="register.html"> Register here </a> </p>
 
 </div>
 </div>
