@@ -37,10 +37,31 @@ if ($user) {
 <html>
 <head>
 <title>Login</title>
- <link rel="stylesheet" href="assets/css/main.css">
+ <link rel="stylesheet" href="assets/css/quinnawesome.css">
 </head>
-<body>
-    <h1>Login</h1>
+<body style="background-image: url(../../Templates/html5up-read-only/images/zephyrbg.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;">
+<div class="topnav" id="myTopnav">
+  <a href="landing.html" >Home</a>
+  <a href="login.php" class="active">Log In</a>
+  <a href="about.html">About Us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="accountscreen">
+
+<div class="row">
+<div class="column1" style="display: flex;">
+    <img src="../../Templates/html5up-read-only/images/femboy-Photoroom.png" width="50%" height="100%" alt="meow meow meow x3" class="center">
+</div>
+
+    <div class="column2">
+
+
+    <h1>Login To Your Account</h1>
 
         <?php if ($is_invalid): ?>
             <em> Invalid Login </em>
@@ -48,15 +69,20 @@ if ($user) {
 
 
     <form method="post">
+        <div class="elementyey">
         <label for="email">Email</label>
+        <br>
         <input type = "email" name="email" id="email"
                 value="<?= htmlspecialchars($_POST["email"] ?? "") ?>">
-
+        </div>
+         <div class="elementyey">
         <label for="password">Password</label>
+        <br>
         <input type = "password" name="password" id="password">
-
+        </div>
         <button> Log In </button>
     </form>
-
+        <em><p> Have no account? <a href="signup.html"> Register</a> here.</p></em>
+        </div> </div>
 </body>
 </html>

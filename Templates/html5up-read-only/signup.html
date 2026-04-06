@@ -1,33 +1,63 @@
 <html>
 <head>
 <title>Signup</title>
- <link rel="stylesheet" href="assets/css/main.css">
+ <link rel="stylesheet" href="assets/css/quinnawesome.css">
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
-    <script src="/Templates/html5up-read-only/assets/js/validation.js" defer></script>
+   <script src="Templates/html5up-read-only/assets/js/validation.js" defer></script>
 </head>
-<body>
-    <h1>Signup</h1>
+<body style="background-image: url(../../Templates/html5up-read-only/images/zephyrbg.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;">
+
+<div class="topnav" id="myTopnav">
+  <a href="landing.html">Home</a>
+  <a href="login.php">Login</a>
+  <a href="about.html">About Us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="accountscreen">
+
+
+
+
+    <div class="row">
+<div class="column1" style="display: flex;">
+    <img src="../../Templates/html5up-read-only/images/Neco-arc_MBAA.png" width="50%" height="100%" alt="meow meow meow x3" class="center">
+</div>
+
+    <div class="column2">
+  <h1>Register Your Account</h1>
 
     <form action="signuppage.php" method="post" id="signupform" novalidate>
-    <div>
+    <div class="elementyey">
         <label for="name">Name</label>
+        <br>
         <input type="text" id="name" name="name">
     </div>
-       <div>
+       <div class="elementyey">
         <label for="email">Email</label>
+        <br>
         <input type="email" id="email" name="email">
     </div>
-       <div>
+       <div class="elementyey">
         <label for="password">Password</label>
+        <br>
         <input type="password" id="password" name="password">
     </div>
-    <div>
+    <div class="elementyey">
         <label for="password_confirmation">Confirm Password</label>
+        <br>
         <input type="password" id="password_confirmation" name="password_confirmation">
     </div>
-
-
     <button>Create Account</button>
     </form>
+    <em><p> Already have an account? <a href="login.php"> Log in to your account</a> here.</p></em>
+</div> </div>
+
+
+</div>
 </body>
 </html>
