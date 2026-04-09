@@ -1,0 +1,138 @@
+.accountscreen {
+margin-left: 15%;
+text-align: center;
+    font-family: "Lato", sans-serif;
+}
+.accountscreenbody {
+background-image: url(../../Templates/html5up-read-only/images/zephyrbg.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+input {
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid #80a4ed;
+    border-radius: 7px;
+    color: #1c3d5e;
+    width: 50%;
+    height: 7%;
+    min-height: 40px;
+
+}
+input:focus {
+  border: 5px solid #80a4ed;
+transition: border 0.1s ease-in-out;
+}
+.elementyey {
+    margin: 15px;
+}
+.center {
+display: flex;
+  margin-top: 35%;
+  width: 150%;
+  justify-content: center;
+  align-items: center;
+  
+}
+.column1 {
+  float: left;
+  width: 30%;
+}
+.column2 {
+  float: left;
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+button {
+        padding: 5px;
+    margin: 2px;
+    background-color: #80a4ed;
+    border: 2px solid #80a4ed;
+    border-radius: 7px;
+    color: #1c3d5e;
+    width: 49%;
+    height: 7%;
+    min-height: 40px;
+    font-size: x-large;
+}
+button:hover {
+    border-color: #1c3d5e;
+    background-color: #1c3d5e;
+    color: white;
+    scale: 105%;
+    transition: all 0.1s ease-in-out;
+}
+button:active {
+    scale: 100%;
+    background-color: #102840;
+    border-color: #102840;
+}
+p {
+    color:#1c3d5e ;
+}
+
+a:link {
+  color:#1c3d5e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color:#1c3d5e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:#102840;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color:#80a4ed;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:#1c3d5e;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #80a4ed;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #80a4ed;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
