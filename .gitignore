@@ -1,1 +1,8 @@
+<<<<<<< main
 #nothing
+=======
+*.css
+*.html
+!mailingui.html
+!index
+>>>>>>> alex
