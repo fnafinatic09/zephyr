@@ -44,7 +44,7 @@ $stmt->bind_param("sss",
                   
 if ($stmt->execute()) {
 
-    header("Location: signup-success.html");
+    header("Location: ../htmls/signup-success.html");
     exit;
     
 } else {

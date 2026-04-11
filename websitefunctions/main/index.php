@@ -18,7 +18,7 @@ if (isset($_SESSION["user_id"])) {
 <html>
 <head>
 <title>Home</title>
- <link rel="stylesheet" href="assets/css/main.css">
+ <link rel="stylesheet" href="../assets/css/main.css">
 </head>
 <body>
     <h1>Home</h1>
@@ -30,7 +30,7 @@ if (isset($_SESSION["user_id"])) {
 
     <?php else: ?>
 
-        <p><a href="login.php"> Log in </a> or <a href="signup.html"> Sign up </a></p>
+        <p><a href="login.php"> Log in </a> or <a href="../htmls/signup.html"> Sign up </a></p>
 
   <?php endif; ?>
 
