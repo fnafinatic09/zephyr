@@ -8,7 +8,7 @@
 //Import the PHPMailer class into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
 
-require '..//vendor/autoload.php';
+require '../../vendor/autoload.php';
 
 if (array_key_exists('email', $_POST)) {
     $err = false;
