@@ -37,16 +37,16 @@ if ($user) {
 <html>
 <head>
 <title>Login</title>
- <link rel="stylesheet" href="assets/css/quinnawesome.css">
+ <link rel="stylesheet" href="../assets/css/quinnawesome.css">
 </head>
-<body style="background-image: url(../../Templates/html5up-read-only/images/zephyrbg.png);
+<body style="background-image: url(../../imageassets/zephyrbg.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;">
 <div class="topnav" id="myTopnav">
-  <a href="landing.html" >Home</a>
+  <a href="../../index.html" >Home</a>
   <a href="login.php" class="active">Log In</a>
-  <a href="about.html">About Us</a>
+  <a href="../../about.html">About Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -55,7 +55,7 @@ background-attachment: fixed;">
 
 <div class="row">
 <div class="column1" style="display: flex;">
-    <img src="../../Templates/html5up-read-only/images/femboy-Photoroom.png" width="50%" height="100%" alt="meow meow meow x3" class="center">
+    <img src="../../imageassets/femboy-Photoroom.png" width="50%" height="100%" alt="meow meow meow x3" class="center">
 </div>
 
     <div class="column2">
@@ -82,7 +82,7 @@ background-attachment: fixed;">
         </div>
         <button> Log In </button>
     </form>
-        <em><p> Have no account? <a href="signup.html"> Register</a> here.</p></em>
+        <em><p> Have no account? <a href="../htmls/signup.html"> Register</a> here.</p></em>
         </div> </div>
 </body>
 </html>
