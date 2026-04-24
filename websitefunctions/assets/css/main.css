@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: black;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1790,7 +1790,7 @@ input, select, textarea {
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: black;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -2751,7 +2751,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #305047;
+				color: rgb(52,110,138);
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2772,7 +2772,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #01094b;
+					color: #cae1ff;
 				}
 
 		#header > nav {
@@ -2820,12 +2820,13 @@ input, select, textarea {
 	#wrapper {
 		background: #cae1ff;
 		padding-left: 20em;
+		color:#01094b
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #01094b;
 	}
 
 		#main > section > .container {
@@ -3031,7 +3032,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #cae1ff;
+				background: rgb(52,110,138);
 				color: #fff;
 				min-width: 320px;
 			}
@@ -3077,7 +3078,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: rgb(52,110,138);
+						background: #01094b;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
