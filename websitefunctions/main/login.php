@@ -36,7 +36,7 @@ if ($user) {
 
 <html>
 <head>
-<title>Login</title>
+<title>Login | Zephyr Mailing</title>
  <link rel="stylesheet" href="../assets/css/quinnawesome.css">
 </head>
 <body style="background-image: url(../../imageassets/zephyrbg.png);
