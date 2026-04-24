@@ -1,5 +1,6 @@
-*main.css
-*validation.js
-*login.php
-*about.html
-*mailingui.html
+*.html
+*.php
+assets/
+imageassets/
+websitefunctions/
+!index.html
