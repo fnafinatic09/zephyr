@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #81B3DB;
+					border-top: solid 2px rgb(52,110,138);
 					display: block;
 					padding: 0;
 				}
