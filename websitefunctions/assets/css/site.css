@@ -9,8 +9,7 @@
 }
 
 .circle-image {
-    width: 200px;
-    height: 200px;
+    width: 20%;
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
@@ -18,15 +17,12 @@
 }
 
 .circle-image img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 .profile{
     background-color:#cae1ff;
     padding:10px;
-    grid-template-columns: auto auto;
-    display: grid;
+    display:flex;
     gap: 20px;
     align-items: center;
     font-size: large;
